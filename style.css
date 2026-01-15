@@ -33,7 +33,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  max-width: 1256px;
+  /* max-width: 1265px; */
   width: 71%;
   margin: 50px auto;
   gap: 5px;
@@ -181,4 +181,73 @@ footer {
 .footer-icon {
   gap: 4px;
   margin: 5px;
+}
+
+
+
+/* movile responsiv designe */
+
+
+@media screen and (max-width: 786px) {
+
+  .nave {
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+
+  }
+
+  .menu {
+    justify-content: space-around;
+    gap: 5px;
+  }
+
+  .hero-section {
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+
+  .hero-left {
+    text-align: center;
+  }
+
+  .all-logo {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center;
+  }
+
+
+  .cart-box {
+
+    grid-template-columns: repeat(1, 1fr)
+  }
+
+  .cart1 {
+    text-align: center;
+  }
+
+  .up-footer {
+
+    flex-direction: column;
+    flex-direction: column-reverse;
+    text-align: center;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
