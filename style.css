@@ -1,0 +1,184 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+
+/* nav section designe */
+
+.nave {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 20px;
+
+}
+
+.menu li a {
+  text-decoration: none;
+}
+
+
+/* hero section designe */
+
+.hero-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1256px;
+  width: 71%;
+  margin: 50px auto;
+  gap: 5px;
+}
+
+.hero-left {
+  font-weight: bolder;
+}
+
+.hero-left h1,
+p,
+button {
+  margin-bottom: 20px;
+
+}
+
+.hero-left p {
+  font-size: small;
+}
+
+.btn {
+  border: none;
+  border-radius: 41px;
+  padding: 10px;
+  background-color: #E02C6D;
+  color: white;
+}
+
+.hero-right {
+  width: auto;
+  /* border: 1px solid red; */
+  background-image: url(images/Circle\ design.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+/* brand logo section */
+
+
+/* .brand-logo {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  margin: 0 auto;
+} */
+.all-logo {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  width: 60%;
+  margin: 25px auto;
+  gap: 5px;
+  padding: 5px;
+  align-items: center;
+}
+
+
+/* cart section designe */
+
+h2 {
+  text-align: center;
+  margin: auto;
+  padding-top: 15px;
+}
+
+.cart-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* border: 1px solid red; */
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 80%;
+  margin: 30px auto;
+
+
+}
+
+.cart1 {
+  /* border: 1px solid yellow; */
+  background-color: aliceblue;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.cart1 h3 {
+  font-weight: bolder;
+  font-size: 1.50rem;
+
+}
+
+.cart1 price {
+  font-weight: bold;
+  font-size: 3rem;
+  margin-top: 10px;
+  padding: 4px;
+
+}
+
+.cart1 dis {
+  font-size: x-small;
+}
+
+/* up-footer style */
+
+.up-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+  width: 71%;
+  margin: 50px auto;
+}
+
+.d-r {
+  text-align: start;
+  font-weight: bolder;
+  font-size: 1.50rem;
+  margin-bottom: 7px;
+
+}
+
+.up-footer .up-img {
+  border-radius: 8px;
+}
+
+
+
+/* footer section */
+
+footer {
+
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 250px;
+  width: auto;
+  gap: 10px;
+}
+
+.foo {
+  padding-top: 100px;
+}
+
+.footer-icon {
+  gap: 4px;
+  margin: 5px;
+}
